@@ -1,0 +1,20 @@
+# base
+numpy
+pandas
+scipy
+# best practice
+python-dotenv
+tqdm
+# llm
+torch 
+torchtext 
+transformers 
+datasets
+huggingface_hub
+peft
+# bitsandbytes
+# accelerate
+einops
+sentencepiece 
+trl
+openai
