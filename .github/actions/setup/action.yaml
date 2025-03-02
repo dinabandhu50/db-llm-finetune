@@ -1,12 +1,9 @@
 name: "install uv"
-
 description: "Install uv for python, using community action"
-
 runs:
   using: "composite"
   steps:
     - name: install uv
-    - uses: astral-sh|setup-uv@v3
-      with:
-        uv-version: "0.5.30"
-        python-version: "3.12.5"
+      shell: bash
+      run: |
+        curl -LsSf https://astral.sh/uv/install.sh | sh

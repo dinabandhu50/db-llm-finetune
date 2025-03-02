@@ -1,7 +1,5 @@
 name: python-code-quality
-
 on: [push]
-
 jobs:
   lock_file:
     runs-on: ubuntu-latest
