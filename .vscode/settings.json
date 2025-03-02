@@ -1,0 +1,23 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.fontSize": 15,
+    // editor text warp setup
+    "editor.rulers": [88],
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 88,
+    "editor.wrappingIndent": "same",
+    // pytho format setup
+    "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true
+      },
+    "isort.args": ["--profile","black"],
+    "autoDocstring.docstringFormat": "numpy",
+    "editor.accessibilitySupport": "off",
+    // jupyter notebook setup
+    "notebook.formatOnSave.enabled": true,
+    "notebook.output.wordWrap": true,
+    "explorer.confirmDragAndDrop": false,
+}
