@@ -13,8 +13,8 @@ transformers
 datasets
 huggingface_hub
 peft
-# bitsandbytes
-# accelerate
+bitsandbytes
+accelerate
 einops
 sentencepiece 
 trl
