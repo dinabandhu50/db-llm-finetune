@@ -4,6 +4,7 @@ pandas
 scipy
 # best practice
 python-dotenv
+pydantic-settings
 tqdm
 # llm
 torch 
